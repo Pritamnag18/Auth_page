@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="logo">
+            <!-- <h2>The Authenticators</h2> -->
+        </div>
+        <div  class="signin">
+              <h1>Welcome!</h1>
+              <p>Sign into your account</p>
+
+              <form method="post" action="">
+                <label>Username</label>
+                <i class="far fa-user">
+                <!-- <input type="email" placeholder="john@gmail.com" required></i> -->
+                <input type="email" placeholder= "Enter your email" id="username" name="username" required></i>
+
+                <label>Password</label>
+                <i class="fas fa-unlock-alt">
+                <!-- <input type="Password" placeholder="********" required></i> -->
+                <input type="password" placeholder="********" id="password" name="password" minlength="8" required></i>
+                <a href="#">Forgot Password ?</a><br>
+                <!-- <button>Login</button> -->
+                <input type="submit" value="Signup">
+		        <div class="error"></div>
+              
+            </form>
+            <ul>
+                <li><i class="fab fa-facebook"></i></li>
+                <li><i class="fab fa-twitter"></i></li>
+                <li><i class="fab fa-youtube"></i></li>
+                <li><i class="fab fa-whatsapp"></i></li>
+                <li><i class="fab fa-instagram"></i></li>
+            </ul>
+
+            <script src="script.js"></script>
+
+        </div>
+    </div>
+</body>
+</html>
